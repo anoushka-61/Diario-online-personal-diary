@@ -1,0 +1,44 @@
+
+<%- include("partials/header") %>
+<h1 class="home_title"><%= homeStartingContent %></h1>
+  <% posts.forEach(function(post){ %>
+    
+    <h1 class="title_content"><%= post.title %></h1>
+    <%if(post.content || post.title){%>
+      <p style="color:light grey;text-align:left; margin-left: 200px; font-size: 12px;" >    <%=post.date%> </p>
+      <%}%>
+  <p class="content_p"> <%= post.content %></p>
+ <%if(post.content || post.title){%>
+  
+  <div class="delete">
+    <form action="/delete" method="post">
+      
+      <button type="submit" class="delete-button" name="deletedPost" value="<%= post._id %>" onChange="this.form.submit()"
+        style="float: right;">
+        <i class="fas fa-trash"></i>
+        DELETE</button>
+    </form>
+    
+<%}%>
+
+
+</div>
+
+  <% }); %>
+
+  <%- include("partials/footer"); -%>
+ 
+ 
+
+  
+
+
+
+
+
+  
+
+
+
+
+  

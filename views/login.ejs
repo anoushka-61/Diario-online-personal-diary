@@ -1,0 +1,44 @@
+
+  <!DOCTYPE html>
+  <html lang="en" dir="ltr">
+  
+  <head>
+    <meta charset="utf-8">
+    <title>Daily Journal</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://kit.fontawesome.com/fdc4834fee.js" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-default">
+      
+      <form class="auth-form" action="/" method="POST" autocomplete="off">
+        <h1>DIARIO</h1>
+        
+        <div class="auth">
+            
+            <div class="h3"><h3>LOGIN</h3></div>
+            <div class="auth-button">
+                <a href="/auth/google" role="button">
+                    <i class="fab fa-google"></i>
+                    &nbsp Login
+                </a>
+            </div>
+            <div class="or">
+                <span>OR</span>
+            </div>
+         
+            <input type="email" name="username" placeholder="Email Address">
+            <input type="password" name="password" placeholder="Password">
+          </div>
+        <button type="submit" class="auth-button">Login</button>
+        <p class="signup">Not a user?  <a style="text-decoration: underline;"  href="/register">Sign up</a></p>
+     
+    </form>
+    </nav>
+  
+  
+  
+  <%- include("partials/footer"); %>
+
+
+

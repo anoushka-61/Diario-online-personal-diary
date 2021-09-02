@@ -1,0 +1,271 @@
+body {
+ 
+  position: relative;
+  min-height: 100%;
+  min-height: 100vh;
+  background-image: url("bright-squares.png");
+}
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.title_content{
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  margin-left: 200px;
+  font-family: 'Prata', serif;
+  font-size: 35px;
+ color: darkslategray;
+ text-decoration: underline;
+}
+.content_p {
+  margin-left: 200px;
+  font-size:15px;}
+.home_title{
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+   margin-right: 40px;
+  font-family: 'Prata', serif;
+  font-size: 5p4x;
+  font-weight: 30px;
+ color: #363636;
+}
+
+.h3{
+  font-family: 'Prata', serif;
+  margin-top: 50px;
+  
+}
+.navbar-nav li {
+  color:darkslategray;
+}
+a,
+a:active,
+a:visited,
+a:focus,
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.home-page p a,
+.content a:hover,
+.contact-link:hover,
+.navbar-nav li a:hover {
+  color: white !important;
+}
+
+.publish-button,
+.delete-button{
+  color: black!important;
+  font-size: 12px;
+  text-emphasis-style: bold;
+  background-color: white;
+  border: 2px solid skyblue;
+  transition-duration: 0.2s;
+  padding: 10px 15px;
+  letter-spacing: 5px;
+  border-radius: 8px;
+  margin-right: 150px;
+  outline: none;
+  font-weight: bold;
+}
+
+.publish-button:hover,
+.delete-button:hover{
+  background-color: skyblue;
+  color: rgb(255, 255, 255) !important;
+}
+/* Nav bar */
+.navbar {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: black;
+  background-color: #cfe7f7;
+  height:80px;
+  
+}
+
+.navbar-header {
+  font-size: 100px;
+  bottom:500px;
+  
+}
+
+
+/* Home page */
+.home {
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -35%);
+  position: absolute;
+}
+
+.home-button {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+/* Auth page */
+
+.auth-form {
+  text-align: center;
+  top: 300%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+ 
+
+.auth-form p {
+  margin: 20px 0px;
+  color: darkslategray;
+}
+
+.alert-button {
+  color:darkslategrey ;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.auth input {
+  border: 1px solid #cfe7f7;
+  width: 250px;
+  border-radius: 3px;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  display: block;
+  outline: none;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+.auth-button {
+  appearance: none;
+  border: 0;
+  padding: 10px 15px;
+  color: darkslategray;
+  background-color: #cfe7f7;
+  border-radius: 3px;
+  width: 250px;
+  margin: 0 auto 10px auto;
+  font-size: medium;
+  letter-spacing: 0px;
+  font-weight: bold;
+}
+
+.or {
+  position: relative;
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.or span {
+  color: darkslategray;
+  background: white;
+  padding: 0px 10px;
+}
+
+.or::before {
+  display: inline-block;
+  content: '';
+  position: absolute;
+  height: 0px;
+  top: 50%;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  transform: translateY(-50%);
+  z-index: -1;
+  border-top: 1px solid rgb(184, 196, 194);
+  margin: 0px auto;
+}
+ .signup{
+   font-size: 16px;
+   letter-spacing: 0px;
+   
+ }
+/* UserHome page */
+.home-page {
+  padding-top: 30px;
+}
+
+.content {
+  font-family: 'Roboto Light', sans-serif;
+}
+
+
+
+.home-page-post,
+.home-page p .content {
+  margin-bottom: 40px;
+}
+
+/* Compose page */
+.form-group {
+  padding-top: 15px;
+  font-family: prata;
+}
+
+.publish-button {
+  margin-top: 5px;
+}
+
+label,
+input {
+  margin-bottom: 10px !important;
+}
+
+textarea {
+  resize: none;
+}
+
+/* About page */
+.about-page {
+  padding-top: 30px;
+  letter-spacing: 1px;
+}
+.about-me {
+  margin-top: 30px;
+}
+.the-abouts {
+  letter-spacing: 3px;
+  font-size: 18px;
+}
+
+/* Footer */
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footers {
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	background-color: #cfe7f7;
+  
+}
+
+.footers p {
+	margin-top: 10px;
+  
+	font-size: 14px;
+  color: black;
+}
+
